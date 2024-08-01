@@ -8,12 +8,25 @@ st.write('Enter your query to get the latest news articles summarized.')
 if 'conversation' not in st.session_state:
     st.session_state.conversation = []
 
+# Add debugging
+st.write("Fetching news articles...")
+articles = get_news_articles()
+if articles:
+    st.write(f"Fetched {len(articles)} articles.")
+else:
+    st.write("No articles fetched.")
+
 query = st.text_input('Query', key='query')
 
 if st.button('Get News'):
-    articles = get_news_articles()
-    summaries = summarize_articles(articles)
-    st.session_state.conversation.append({'query': query, 'summaries': summaries})
+    if articles:
+        summaries = summarize_articles(articles)
+        if summaries:
+            st.session_state.conversation.append({'query': query, 'summaries': summaries})
+        else:
+            st.write("No summaries generated.")
+    else:
+        st.write("No articles to summarize.")
 
 for entry in st.session_state.conversation:
     st.write(f"**Query:** {entry['query']}")
