@@ -6,7 +6,7 @@ from transformers import pipeline
 summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 def get_news_articles():
-    url = "https://timesofindia.indiatimes.com/news"
+    url = "https://timesofindia.indiatimes.com/"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
