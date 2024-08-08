@@ -7,7 +7,7 @@ The objective of this project is to create a news research tool that leverages L
 ### Project Phases
 
 ### Phase 1: Environment Setup
-Task 1.1: Install Required Libraries
+##### Task 1.1: Install Required Libraries
 Set up the development environment by installing necessary libraries such as LangChain, Streamlit, and requests to enable web scraping and API interactions.
 
 ### Phase 2: LangChain Configuration
