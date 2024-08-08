@@ -7,31 +7,31 @@ The objective of this project is to create a news research tool that leverages L
 ### Project Phases
 
 ### Phase 1: Environment Setup
-##### Task 1.1: Install Required Libraries
+#### Task 1.1: Install Required Libraries
 Set up the development environment by installing necessary libraries such as LangChain, Streamlit, and requests to enable web scraping and API interactions.
 
 ### Phase 2: LangChain Configuration
-Task 2.1: Create LangChain Configuration File
+#### Task 2.1: Create LangChain Configuration File
 Develop a configuration file for LangChain that specifies the parameters for scraping and processing news articles.
 
-Task 2.2: Web Scraping
+#### Task 2.2: Web Scraping
 Implement web scraping functionality to gather news articles from various online platforms, ensuring compliance with web scraping best practices.
 
 ### Phase 3: Building Streamlit Interface
-Task 3.1: Create Streamlit App File
+#### Task 3.1: Create Streamlit App File
 Initiate a new Streamlit application file that serves as the main interface for user interaction.
 
-Task 3.2: Implement Basic Streamlit Interface in app.py
+#### Task 3.2: Implement Basic Streamlit Interface in app.py
 Build a basic user interface in Streamlit that allows users to enter queries and display results from the web scraping and API calls.
 
 #### Phase 4: Enhancing the Tool
-Task 4.1: Integrate NewsAPI in langchain_config.py
+#### Task 4.1: Integrate NewsAPI in langchain_config.py
 Integrate the NewsAPI into the LangChain configuration, allowing for the retrieval of up-to-date news articles based on user queries.
 
-Task 4.2: Update Streamlit App to Use Enhanced LangChain Configuration
+#### Task 4.2: Update Streamlit App to Use Enhanced LangChain Configuration
 Modify the Streamlit application to utilize the enhanced LangChain configuration that incorporates the NewsAPI, improving the tool's functionality.
 
-Task 4.3: Run Streamlit App
+#### Task 4.3: Run Streamlit App
 
 Launch the Streamlit app, allowing users to interact with the news research tool and explore the latest news articles.
 Conclusion
