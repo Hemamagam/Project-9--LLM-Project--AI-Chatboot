@@ -34,5 +34,6 @@ Modify the Streamlit application to utilize the enhanced LangChain configuration
 #### Task 4.3: Run Streamlit App
 
 Launch the Streamlit app, allowing users to interact with the news research tool and explore the latest news articles.
-Conclusion
+
+#### Conclusion
 The News Research Tool project successfully implements a robust application that integrates web scraping and NewsAPI functionality through LangChain and Streamlit. Users can easily access and analyze the latest news articles based on their interests, making the tool a valuable resource for research and staying informed. This project not only demonstrates the power of combining various technologies for practical applications but also serves as a foundation for future enhancements, such as adding natural language processing capabilities for deeper article analysis or expanding the data sources for scraping. The tool can be further refined based on user feedback and evolving news data needs, showcasing a scalable solution for effective news research.
